@@ -17,8 +17,8 @@ stopWordsFilePath = os.path.join(dataRootPath, 'stopwords')
 docNum = 1000  # 提取的段落数量
 modeList = ['char', 'word']  # 划分模式
 docLengthMap = {  # 段落长度
-    'char': [20, 100, 500, 1000, 3000],  # 以字划分可以多点
-    'word': [20, 100, 500, 1000]  # 以词划分不能太多
+    'char': [20, 100, 500, 1000, 3000],  
+    'word': [20, 100, 500, 1000]  
 }
 # docLengthList = [20, 100, 500, 1000, 3000]  # 段落长度
 topicNumList = [2, 5, 10, 20, 50, 100]  # 话题数量
